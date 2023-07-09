@@ -1,0 +1,102 @@
+.type5-card h3{
+    color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+}
+
+.type5-card a{
+    text-decoration: none;
+    color: var(--dcs-primary-10, #598EC2);
+    padding: 8px 16px;
+    border-radius: 32px;
+border: 1px solid var(--dcs-primary-10, #598EC2);
+}
+
+.explore {
+    display: flex;
+    justify-content: space-between;
+}
+
+.type5-card h4{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.rate h5{
+    color: var(--blue-grey-50, #ECEFF1);
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 6px 13px;
+border-radius: 17px;
+background: var(--green-2, #27AE60);
+
+}
+
+.rate   {
+    display: flex;
+    align-items: center;
+    gap: 12px   ;
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+
+.comfort p{
+    color: var(--blue-grey-300, #90A4AE);
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.comfort h4{
+    color: var(--blue-grey-500, #607D8A);
+    font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.comforts{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.symbol{
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: #27AE60;
+}
+
+
+.comfort-avialablity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.type5-text{
+    padding: 16px 16px 32px 16px;
+}
+
+.type5-card{
+    border-radius: 16px;
+background: #FFF;
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+overflow: hidden;
+}
+
+.type5-cards{
+    display: flex;
+    justify-content: space-evenly;
+}

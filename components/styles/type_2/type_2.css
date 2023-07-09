@@ -1,0 +1,34 @@
+#type_2{
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.type_2>.containere{
+    width: 1112px;
+    margin: 0 auto;
+}
+
+.type2-card h2{
+    color: #284B80;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.type2-card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 14px 14px 24px 14px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.type2-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}

@@ -1,0 +1,83 @@
+#type_3>.container{
+    width: 1034px;
+    margin: 0 auto;
+}
+
+.type3-card h2{
+    color: var(--dark-button-medium, #6E7491);
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+.type3-location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.type3-location p{
+    color: var(--dark-button-light, #7C8DB0);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0;
+}
+
+.type3-stats {
+  display: flex; 
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 38px;
+}
+
+.type3-stat h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.type3-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type3-card{
+    overflow: hidden;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.08);
+}
+
+.type3-card a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 100px;
+    text-align: center;
+    background-color: #2d9cdb;
+     border-radius: 4px;
+}
+
+.type3-link{
+    text-align: center;
+    margin-top: 32px;
+    width: 400px;
+   
+}
+.text {
+    padding: 24px;
+}
+
+.type3-card a:hover{
+    background-color: green ;
+    border-radius: 15px;
+    transition: all 0.5s;
+
+    
+
+}
